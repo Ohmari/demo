@@ -1,0 +1,76 @@
+{
+box-sizing: border-box;
+}
+body{
+     margin: 0;
+    font-family: "Lato", SansSerif;
+    overflow-x: hidden;
+}
+
+.logo{
+    /*padding: 0;
+    font-size: xxx-large;
+
+    position: relative;
+    bottom: 15px;*/
+    /*padding: 10px 100px 0 100px;
+    justify-items: center;
+    font-weight: bolder;
+    font-size: 48px;*/
+    position: absolute;
+    float: left;
+    font-size: xxx-large;
+    color: lightsalmon;
+    margin-left: 15px;
+    text-shadow: 0px 0px 0px darkblue,
+    1px 1px 0px darkblue,
+    2px 2px 0px darkblue,
+    3px 3px 0px darkblue,
+    4px 4px 0px darkblue;
+    box-shadow: 0px 0px 0px darkgoldenrod,
+    1px 1px 0px darkgoldenrod,
+    2px 2px 0px darkgoldenrod,
+    3px 3px 0px darkgoldenrod,
+    4px 4px 0px darkgoldenrod;
+    border-radius: 20px;
+    font-style: oblique;
+    text-align: center;
+    width: 80px;
+
+}
+.logo, .header{
+    padding: 5px;
+}
+/*
+.header{
+    margin-left: 150px;
+
+}*/
+.brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.brand_name{
+    margin-left: 100px;
+    font-size: 29px;
+    color: lightsalmon;
+    text-shadow: 0px 0px 0px darkblue,
+    1px 1px 0px darkblue,
+    2px 2px 0px darkblue,
+    3px 3px 0px darkblue,
+    4px 4px 0px darkblue;
+
+}
+.slogan{
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 130px;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: small;
+    color: darkblue;
+
+}
